@@ -6,6 +6,10 @@ $dsn = MYSQL_DSN;
 $username = MYSQL_USER;
 $password = MYSQL_PASSWORD;
 
+echo "MYSQL_DSN $dsn \n";
+echo "MYSQL_USER $username \n";
+echo "MYSQL_PASSWORD $password \n";
+
 try {
     $conn = new PDO($dsn, $username, $password);
     // set the PDO error mode to exception
