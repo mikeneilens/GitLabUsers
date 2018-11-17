@@ -1,5 +1,5 @@
 <?php
-echo "Hello world!";
+echo "Hello world!\n";
 
 
 $dsn = MYSQL_DSN;
