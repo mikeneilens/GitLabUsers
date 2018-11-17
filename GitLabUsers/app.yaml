@@ -10,5 +10,5 @@ handlers:
 
 env_variables:
   MYSQL_DSN: mysql:unix_socket=/cloudsql/gitlabusers-mn2017:europe-west1:test1;dbname=dbtest
-  MYSQL_USER: mike1
-  MYSQL_PASSWORD: mike1
+  MYSQL_USER: root
+  MYSQL_PASSWORD: test1mike
