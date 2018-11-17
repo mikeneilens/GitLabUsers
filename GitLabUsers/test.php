@@ -2,9 +2,9 @@
 echo "Hello world!\n";
 
 
-$dsn = MYSQL_DSN;
-$username = MYSQL_USER;
-$password = MYSQL_PASSWORD;
+$dsn = $_ENV[MYSQL_DSN];
+$username = $_ENV[MYSQL_USER];
+$password = $_ENV[MYSQL_PASSWORD];
 
 echo "MYSQL_DSN $dsn \n";
 echo "MYSQL_USER $username \n";
