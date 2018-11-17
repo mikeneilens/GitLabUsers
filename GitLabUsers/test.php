@@ -2,9 +2,9 @@
 echo "Hello world!\n";
 
 
-$dsn = $_ENV[MYSQL_DSN];
-$username = $_ENV[MYSQL_USER];
-$password = $_ENV[MYSQL_PASSWORD];
+$dsn = "mysql:unix_socket=/cloudsql/gitlabusers-mn2017:europe-west1:test1;dbname=dbtest";
+$username = "mike1";
+$password = "mike1";
 
 echo "MYSQL_DSN $dsn \n";
 echo "MYSQL_USER $username \n";
