@@ -7,3 +7,8 @@ handlers:
 
 - url: /.*
   script: index.php
+
+env_variables:
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/test1;dbname=dbtest
+  MYSQL_USER: mike1
+  MYSQL_PASSWORD: mike1
